@@ -1,0 +1,19 @@
+#Workflow
+#Should have name
+name: Hello
+
+on: workflow_dispatch
+#Jobs
+#Should be inside Workflow
+jobs:
+  say-hello:
+#create ephemeral container
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Say hello to everymeow
+        run: echo "Hello Everymeow"
+#Steps
+#Should be inside Jobs
+
+#Actions
+#Should be inside steps
